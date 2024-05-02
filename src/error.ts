@@ -57,3 +57,5 @@ export function showWarningOnce(message: string) {
 export function showRuleCrashWarning(message: string, ruleName: string, fileName: string) {
     console.warn(`The '${ruleName}' rule threw an error in '${fileName}':\n${message}`);
 }
+
+export function useless() {}
