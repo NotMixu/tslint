@@ -27,6 +27,7 @@ export function findFormatter(
     name: string | FormatterConstructor,
     formattersDirectory?: string,
 ): FormatterConstructor | undefined {
+    console.log("ok");
     if (typeof name === "function") {
         return name;
     } else if (typeof name === "string") {
